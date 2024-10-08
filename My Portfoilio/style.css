@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    color: white;
+    font-family: "Poppins", system-ui;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90px;
+    background-color: rgb(91, 90, 90);
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+nav ul a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul a:hover {
+    color: blueviolet;
+    font-size: 1.05rem;
+    
+}
+
+.left{
+    font-size: 2rem;
+    color: #de7b7b;
+}
+
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+    align-items: center;
+    margin-top: 80px;
+}
+.leftsection .buttons{
+    padding: 23px;
+}
+
+.firstsection .btn{
+    padding: 12px;
+    background-color: cornflowerblue;
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.firstsection  > div{
+    width: 30%;
+    font-size: 2.3rem;
+    margin: 50px 0px;
+}
+
+.rightSection img{
+    width: 80%;
+}
+
+.purple{
+    color: rgb(241, 145, 241);
+}
+
+#element{
+    color: rgb(241, 145, 241);
+}
+
+hr{
+    border: 0;
+    background-color: violet;
+    height: 1.2px;
+    margin: 40px 84px;
+}
+
+.secondsection{
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+
+}
+
+.secondsection h1{
+    font-size: 1.9rem;
+}
+
+.text-gray{
+    color: #848181;
+}
+
+.secondsection .box{
+    background-color:  rgb(241, 145, 241);
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+
+}
+
+.secondsection .vertical{
+    height: 93px;
+    width: 1px;
+    background-color: rgb(241, 145, 241);;
+    margin: 0 100px;
+}
+
+.image-top{
+    width: 23px ;
+    position: relative;
+    top: -32px;
+    left: -9px;
+}
+
+.vertical-title{
+    position: relative;
+    top: 75px;
+    width: 150px;
+
+}
+
+.vertical-desc{
+    position: relative;
+    top: 76px;
+    color: #aea4a4;
+    width: 150px;
+    font-size: xx-small;
+
+}
+footer{
+    background-color: rgb(74, 78, 85);
+    height: 233px;
+}
+
+.footer{
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+
+}
+
+.footer li{
+    list-style: none;
+}
+
+.footer > div{
+    width: 250px;
+}
+
+.footer-right{
+    text-align: center;
+    color: #aea4a4;
+    padding: 12px 0;
+}
